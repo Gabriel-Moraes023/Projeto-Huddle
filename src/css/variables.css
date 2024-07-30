@@ -1,0 +1,7 @@
+:root{
+    --color-soft: hsl(300, 69%, 71%);
+
+    --color-dark:  hsl(257, 40%, 49%);
+
+    --max-width-size: 1440px;
+}

@@ -1,0 +1,129 @@
+html {
+    font-size: 62.5%;
+    max-width: var(--max-width-size);
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-dark);
+    background-position: 25% 80%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 75px;
+}
+
+.header img {
+    width: 20rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .hero {
+    padding-left: 120px;
+
+
+}
+
+.container .text-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 180px;
+    align-items: flex-start;
+
+
+}
+
+.container .text-info h2 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 4rem;
+
+}
+
+.container .text-info p {
+    font-size: 1.9rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.container .text-info .btn-register {
+    background-color: #ffffff;
+    border-radius: 2.5rem;
+    color: var(--color-dark);
+    margin-left: 2rem;
+    padding: 10px 20px;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.container .text-info .btn-register:hover {
+    background-color: var(--color-soft);
+    color: #fff;
+}
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.footer .social {
+    font-size: 3.5rem;
+}
+
+.footer .social a {
+    padding: 0 4px;
+}
+
+
+.fa-instagram,
+.fa-twitter {
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 4rem;
+    border-radius: 50px;
+
+}
+
+.fa-facebook-square {
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 4rem;
+    border-radius: 50px;
+
+}
+
+.fa-facebook-square:hover {
+    background-color: var(--color-soft);
+}
+
+.fa-twitter:hover {
+    background-color: var(--color-soft);
+}
+
+.fa-instagram:hover {
+    background-color: var(--color-soft);
+}

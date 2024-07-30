@@ -1,0 +1,50 @@
+@media(max-width:768px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column: auto;
+  }
+
+  .header {
+    padding: 0;
+    margin-top: 40px;
+    padding-left: 40px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .hero {
+    padding: 0;
+  }
+
+  .container img {
+    min-height: 372px;
+    min-width: 375px;
+    width: 375px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .container .text-info {
+    justify-content: center;
+    display: flex;
+
+  }
+
+  .container .text-info .btn-register {
+    margin-left: 100px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+}
